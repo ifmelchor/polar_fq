@@ -1,6 +1,15 @@
+#!/usr/local/bin julia
+# coding=utf-8
+
+# Utility functions for .jl
+
+# Ivan Melchor
+
+__precompile__
+
 module PolarF
 
-using LinearAlgebra
+    using LinearAlgebra
     
     export polar_analysis, polar_run
 

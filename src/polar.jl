@@ -78,6 +78,7 @@ function polar_run(data::Array{Float64,2}, fs::Integer, nwin::Integer, lwin::Int
         ninikk = base.nini + base.nadv*(n-1)
         data_n = @view base.data[:, ninikk:ninikk+base.lwin]
         push!(ret, polar_analysis(data_n, base.fs, base.fq_band, NW=base.NW, pd=base.pad))
-
+    end
+    
     return ret
 end
