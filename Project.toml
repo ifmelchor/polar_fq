@@ -9,6 +9,7 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Multitaper = "a81958ac-9ec9-4086-814d-3ae87249a5e8"
 
 [compat]
+ComplexValues = "0.2"
 julia = "1"
 
 [extras]
